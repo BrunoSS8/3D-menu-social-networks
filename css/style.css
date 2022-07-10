@@ -43,3 +43,9 @@ ul li::before {
     transform: skewY(45deg);
     transition: 0.5s;
 }
+
+/*colocar cor na lateral, já com um tom mais escuro de sombra*/
+ul li:hover::before {
+    background: var(--clr);
+    filter: brightness(0.7);
+}
