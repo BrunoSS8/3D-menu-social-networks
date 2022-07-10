@@ -49,3 +49,18 @@ ul li:hover::before {
     background: var(--clr);
     filter: brightness(0.7);
 }
+
+/*colorcar cor em cima, já com um tom mais escuro de sombra*/
+ul li::after {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #3e3f46;
+    filter: brightness(0.9); /*deixar a cor com tom mais escuro para sombra*/
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+}
