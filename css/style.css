@@ -86,3 +86,19 @@ ul li:hover a {
 ul li:last-child::after {
     box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
 }
+
+ul li span {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    font-size: 1.25em;
+}
