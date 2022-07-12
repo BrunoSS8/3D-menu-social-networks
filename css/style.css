@@ -102,3 +102,7 @@ ul li span {
     opacity: 0.5;
     font-size: 1.25em;
 }
+
+ul li:hover span {
+    opacity: 1;
+}
